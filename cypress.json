@@ -1,0 +1,10 @@
+{
+  "projectId": "3442zn",
+  "reporter": "mochawesome",
+"reporterOptions": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": false,
+        "json": true
+    }
+}

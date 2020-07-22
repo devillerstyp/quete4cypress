@@ -1,0 +1,181 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-07-22T09:58:52.898Z",
+    "end": "2020-07-22T09:59:46.331Z",
+    "duration": 53433,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "7e5ab2d6-acf8-4b44-88c1-e2022eb37910",
+      "title": "",
+      "fullFile": "cypress\\integration\\apiTest.spec.js",
+      "file": "cypress\\integration\\apiTest.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "cabd228a-d566-4bb3-84a1-fa3eff92bf02",
+          "title": "Request API tests",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Tester musique",
+              "fullTitle": "Request API tests Tester musique",
+              "timedOut": null,
+              "duration": 13755,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.product(product[0].q, product[0].type, product[0].info, product[0].limit);",
+              "err": {},
+              "uuid": "6e77d100-5e47-4723-be62-e25463748322",
+              "parentUUID": "cabd228a-d566-4bb3-84a1-fa3eff92bf02",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "tester film",
+              "fullTitle": "Request API tests tester film",
+              "timedOut": null,
+              "duration": 11156,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.product(product[1].q, product[1].type, product[1].info, product[1].limit);",
+              "err": {},
+              "uuid": "99ba20de-0656-4ffb-a572-b0256e6a48d2",
+              "parentUUID": "cabd228a-d566-4bb3-84a1-fa3eff92bf02",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "tester info",
+              "fullTitle": "Request API tests tester info",
+              "timedOut": null,
+              "duration": 7069,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.product(product[2].q, product[2].type, product[2].info, product[2].limit);",
+              "err": {},
+              "uuid": "eac32459-07d3-4f8c-b2fc-47a54e802f48",
+              "parentUUID": "cabd228a-d566-4bb3-84a1-fa3eff92bf02",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "tester limit",
+              "fullTitle": "Request API tests tester limit",
+              "timedOut": null,
+              "duration": 10532,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.product(product[3].q, product[3].type, product[3].info, product[3].limit);",
+              "err": {},
+              "uuid": "b7124cfd-1fb1-44b7-9ee5-bd9a8596e340",
+              "parentUUID": "cabd228a-d566-4bb3-84a1-fa3eff92bf02",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "tester q",
+              "fullTitle": "Request API tests tester q",
+              "timedOut": null,
+              "duration": 8822,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// pour le cas echeant on peu effacer le q dans le jdd (\"q\": \"Guardians Of The Galaxy Vol. 2\")\ncy.product(product[4].q, product[4].type, product[4].info, product[4].limit);",
+              "err": {},
+              "uuid": "579969b6-36d4-44c2-8f7d-c55664ceb387",
+              "parentUUID": "cabd228a-d566-4bb3-84a1-fa3eff92bf02",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "6e77d100-5e47-4723-be62-e25463748322",
+            "99ba20de-0656-4ffb-a572-b0256e6a48d2",
+            "eac32459-07d3-4f8c-b2fc-47a54e802f48",
+            "b7124cfd-1fb1-44b7-9ee5-bd9a8596e340",
+            "579969b6-36d4-44c2-8f7d-c55664ceb387"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 51334,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.1.0"
+    }
+  }
+}
